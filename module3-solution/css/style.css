@@ -1,0 +1,32 @@
+.bg-light {
+    background-color: #999999 !important;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border-top: 2px solid black;
+}
+
+#main-sections-bg {
+    background-color: #999999;
+}
+
+.navbar-light .navbar-toggler {
+    border: 2px solid black;
+}
+
+.navbar-toggler {
+    margin-bottom: 10px;
+}
+
+.navbar-toggler-icon {
+    font-size: 1.5em;
+}
+
+@media (max-width: 575px) {
+    .col-xxs {
+        width: 97%;
+        margin: 10px;
+    }
+}
